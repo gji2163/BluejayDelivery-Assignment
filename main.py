@@ -72,12 +72,12 @@ print('Employees who have worked for 7 consecutive days:\n')
 for i,j in enumerate(a):
     print(i+1,':\t',j)
 
-print('\n\nEmployees who have time between shifts is less than 10 hours but greater than 1 hour:\n')
+print('\n\nEmployees who have less than 10 hours of time between shifts but greater than 1 hour:\n')
 
 for i,j in enumerate(b):
     print(i+1,':\t',j)
 
-print('\n\nEmp who has worked for more than 14 hours in a single shift :\n')
+print('\n\nEmployee who has worked for more than 14 hours in a single shift :\n')
 
 for i,j in enumerate(c):
     print(i+1,':\t',j)
